@@ -10,6 +10,6 @@ for i in range(time):
        nextindex = nextindex + 1
        result.append(prices[nextindex] - prices[index])
 if max(result) <= 0:
-    prnt(0)
+    print(0)
 else:
     print(max(result))
