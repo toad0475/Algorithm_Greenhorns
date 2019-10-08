@@ -1,24 +1,15 @@
 prices = [7, 5, 3, 6, 3, 2]
-index: int = 0
+index: int = -1
 time: int = len(prices)
 result = []
 for i in range(time):
-   index = index - 1
+   index = index + 1
    time = time - 1
-   minus: int = - 1
-   previousindex: int = index - minus
-   print(index, previousindex)
-   if previousindex == -1*time:
-     break
-   else:
-      for i in range(time):
-          if previousindex == -1 * time:
-            break
-          else:
-            previousindex = previousindex - minus
-            result.append(prices[index] - prices[previousindex])
-            print(index, previousindex)
+   nextindex: int = index
+   for i in range(time):
+       nextindex = nextindex + 1
+       result.append(prices[nextindex] - prices[index])
 if max(result) <= 0:
-   print(0)
+    prnt(0)
 else:
-   print(max(result))
+    print(max(result))
