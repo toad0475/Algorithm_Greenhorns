@@ -1,0 +1,20 @@
+[a,b] Result=R
+day=[THU, FRI, SAT, SUN, MON, TUE, WED]
+
+0<a<13, 0<b
+if
+  a=1, a1=1, b<32
+  a=2, a2=4, b<30
+  a=3, a3=5, b<32
+  a=4, a4=1, b<31
+  a=5, a5=3, b<32
+  a=6, a6=6, b<31
+  a=7, a7=1, b<32
+  a=8, a8=4, b<32
+  a=9, a9=7, b<31
+  a=10, a10=2, b<32
+  a=11, a11=5, b<31
+  a=12, a12=7, b<32
+
+if
+ modulo(a+b)/7=num, R=day[Index num]
