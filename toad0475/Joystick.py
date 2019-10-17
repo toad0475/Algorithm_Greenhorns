@@ -8,7 +8,7 @@ def solution(name):
         else:
             answer += alphabet.index(char) - ((alphabet.index(char)-13)*2)
     # 양옆 최소?
-    for i in len(char):
+    for i in range(len(char)):
         if
         
     return answer
