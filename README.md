@@ -1,9 +1,9 @@
 # Algorithm_Greenhorns
-Alorithm 스터디하는 코딩 풋내기들의 모임입니다.
+Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸이트에서 맴버들이 돌아가면서 매주 1문제씩 출제합니다.
 * LeetCode(https://leetcode.com/problemset/all/)
 * Programmers(https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
-에서 맴버들이 돌아가면서 매주 1문제씩 출제합니다.
+
 
 ## 2019.10.15
 * [Joystick](https://programmers.co.kr/learn/courses/30/lessons/42860)
