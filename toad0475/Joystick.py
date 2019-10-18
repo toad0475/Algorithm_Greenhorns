@@ -1,4 +1,4 @@
-     def greedy(count,name_len,notA_idxs):
+def greedy(count,name_len,notA_idxs):
     # 현재 위치에서 가장 가까운 A가 아닌 문자 찾기
     if name_len==len(notA_idxs):
         return count+(name_len-1)
