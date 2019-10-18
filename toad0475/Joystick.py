@@ -1,8 +1,10 @@
-# 현재 위치에서 가장 가까운 A가 아닌 문자 찾기           
+    
 def greedy(count,name_len,notA_idxs):
+    # 현재 idx에서 가장 가까운 A가 아닌 문자 찾기
     curr_idx = 0
     while notA_idxs:
         dists = []
+            # 현재 idx에서 가장 가까운 A가 아닌 문자 찾기
         for idx in notA_idxs: # 요 부분이 아직 Brute force임!!
             dists.append(min(abs(idx-curr_idx),name_len-abs(idx-curr_idx)))
         min_dist = min(dists)
