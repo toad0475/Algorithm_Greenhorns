@@ -31,5 +31,8 @@ def solution(name):
     return greedy(count, name_len, notA_idxs)        
 
     
-# 테스트케이스
-print(solution("AAABAAAAAABA"))
+
+# 문제가 있는 케이스
+print(solution("ABAABAAAAAAAB"))
+# expected: 9
+# result: 11
