@@ -46,7 +46,7 @@ def solution(name):
                 if indexc == len(indexcount):
                     break
             if name_list[0] == 'A': # name의 첫글자가 A라면 
-                answer = sum(alphabetcount) + (sum(realcount) - (0-indexcount[0])) 
+                answer = sum(alphabetcount) + (sum(realcount) + indexcount[0])
                 # A가 아닌 리스트인 indexcount의 첫 값을 0 에서 빼서 차이를 구하고 그걸 realcount에서 빼줌)
             else : answer = sum(alphabetcount) + sum(realcount) # 아니라면 그냥 더해주기
     else: answer = 0 # A가 아닌 글자가 하나도 없다면 answer는 0
