@@ -31,3 +31,5 @@ if len(words) != len(set(words)):  # words리스트와 words의 set(중복된게
         index = index + 1
 print(who, turn)
 
+# 19번 문제 해결 해야함. 중복이 된 아이템 검사하기, 끝말잇기 잘 했나 둘다 서로 유기적으로 되야함.. 
+# 테스트 케이스 n=3 , ["tank", "kick", "know", "wheel", "land", "dream", "mother", "bot", "tank"] 일경우에 "bot"이 틀렸으므로 [2,3]이 나와야하는데 코드상에서 첫번째 tank 검사할 때 마지막 tank가 같다고 [3,3]을 반환
