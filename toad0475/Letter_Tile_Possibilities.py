@@ -1,11 +1,10 @@
-# https://leetcode.com/problems/letter-tile-possibilities/submissions/
+# https://leetcode.com/submissions/detail/275918575/
 
 import itertools
 
 class Solution:
     def numTilePossibilities(self, tiles: str) -> int:
-        tileMap=set()
-        for i in range(1,len(tiles)+1):
-            for t in itertools.permutations(tiles,i):
-                tileMap.add(''.join(t))
-        return len(tileMap)
+        output = 0
+        for i in range(1,len(tiles)+1):     
+            output += len(set(map(''.join,itertools.permutations(tiles,i))))
+        return output
