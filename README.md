@@ -4,7 +4,7 @@ Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸�
 * Programmers(https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
 ## 2019.11.05
-* [
+* [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
 
 ## 2019.10.30
 * [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)
