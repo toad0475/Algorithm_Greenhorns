@@ -14,8 +14,8 @@ import itertools
 pool = [k1, k2, ... kn]
 열 개수 = n
 
-Event = list(map(itertools.permutations(pool, n)))
+Event = list(map(itertools.permutations(pool, n+1)))
 
-n부터 2까지 역순으로 위 함수 반복
+n+1부터 1까지 역순으로 위 함수 반복
 
-Output = len(set(Event))
+Output = len(Event)
