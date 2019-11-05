@@ -1,0 +1,21 @@
+참고 
+- https://docs.python.org/3/library/itertools.html#itertools.combinations
+- https://wikidocs.net/23278
+- https://programmers.co.kr/learn/courses/4008/lessons/12836
+- https://dojang.io/mod/page/view.php?id=2286
+
+
+itertools.permutations #순열, 순서는 중요하고 중복은 허용 안될 때
+map #리스트의 요소를 지정된 함수로 처리해주는 함수
+
+
+import itertools
+
+pool = [k1, k2, ... kn]
+열 개수 = n
+
+Event = list(map(itertools.permutations(pool, n)))
+
+n부터 2까지 역순으로 위 함수 반복
+
+Output = len(Event)
