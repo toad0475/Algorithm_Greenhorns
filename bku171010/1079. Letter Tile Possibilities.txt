@@ -18,4 +18,4 @@ Event = list(map(itertools.permutations(pool, n+1)))
 
 n+1부터 1까지 역순으로 위 함수 반복
 
-Output = len(Event)
+Output = len(set(Event))
