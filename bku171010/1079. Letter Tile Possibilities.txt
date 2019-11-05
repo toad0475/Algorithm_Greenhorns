@@ -1,21 +1,21 @@
-Âü°í 
+ì°¸ê³  
 - https://docs.python.org/3/library/itertools.html#itertools.combinations
 - https://wikidocs.net/23278
 - https://programmers.co.kr/learn/courses/4008/lessons/12836
 - https://dojang.io/mod/page/view.php?id=2286
 
 
-itertools.permutations #¼ø¿­, ¼ø¼­´Â Áß¿äÇÏ°í Áßº¹Àº Çã¿ë ¾ÈµÉ ¶§
-map #¸®½ºÆ®ÀÇ ¿ä¼Ò¸¦ ÁöÁ¤µÈ ÇÔ¼ö·Î Ã³¸®ÇØÁÖ´Â ÇÔ¼ö
+itertools.permutations #ìˆœì—´, ìˆœì„œëŠ” ì¤‘ìš”í•˜ê³  ì¤‘ë³µì€ í—ˆìš© ì•ˆë  ë•Œ
+map #ë¦¬ìŠ¤íŠ¸ì˜ ìš”ì†Œë¥¼ ì§€ì •ëœ í•¨ìˆ˜ë¡œ ì²˜ë¦¬í•´ì£¼ëŠ” í•¨ìˆ˜
 
 
 import itertools
 
 pool = [k1, k2, ... kn]
-¿­ °³¼ö = n
+ì—´ ê°œìˆ˜ = n
 
 Event = list(map(itertools.permutations(pool, n)))
 
-nºÎÅÍ 2±îÁö ¿ª¼øÀ¸·Î À§ ÇÔ¼ö ¹İº¹
+në¶€í„° 2ê¹Œì§€ ì—­ìˆœìœ¼ë¡œ ìœ„ í•¨ìˆ˜ ë°˜ë³µ
 
-Output = len(Event)
+Output = len(set(Event))
