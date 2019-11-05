@@ -11,8 +11,8 @@ map #리스트의 요소를 지정된 함수로 처리해주는 함수
 
 import itertools
 
-pool = [k1, k2, ... kn]
-열 개수 = n
+pool = [k0, k1, ... kn]
+열 개수 = n+1
 
 Event = list(map(itertools.permutations(pool, n+1)))
 
