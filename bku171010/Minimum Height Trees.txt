@@ -1,18 +1,17 @@
-#leaf ³ëµå³¢¸®ÀÇ °Å¸® Áß °¡Àå ±ä ³ëµåÀÇ Áß°£ÀÌ Root°¡ µÇ¾î¾ß ÇÑ´Ù.
-#ÁøÀÔÂ÷¼ö 1ÀÎ Leaf ³ëµå¸¦ Å×µÎ¸®ºÎÅÍ ÇÏ³ª¾¿ Á¦°ÅÇØ ³ª°¡°í(degree°¡ 1ÀÌ µÉ ¶§±îÁö)  ¸¶Áö¸· ³²Àº ³ëµå°¡ Root
+#leaf ë…¸ë“œë¼ë¦¬ì˜ ê±°ë¦¬ ì¤‘ ê°€ìž¥ ê¸´ ë…¸ë“œì˜ ì¤‘ê°„ì´ Rootê°€ ë˜ì–´ì•¼ í•œë‹¤.
+#ì§„ìž…ì°¨ìˆ˜ 1ì¸ Leaf ë…¸ë“œë¥¼ í…Œë‘ë¦¬ë¶€í„° í•˜ë‚˜ì”© ì œê±°í•´ ë‚˜ê°€ê³ (degreeê°€ 1ì´ ë  ë•Œê¹Œì§€)  ë§ˆì§€ë§‰ ë‚¨ì€ ë…¸ë“œê°€ Root
 
-#levelÀÌ È¦¼öÀÏ °æ¿ì 1°³, Â¦¼öÀÏ °æ¿ì 2°³
+#levelì´ í™€ìˆ˜ì¼ ê²½ìš° 1ê°œ, ì§ìˆ˜ì¼ ê²½ìš° 2ê°œ
 
 
 
-nÀÌ 3º¸´Ù ÀÛÀ¸¸é 
+nì´ 3ë³´ë‹¤ ìž‘ìœ¼ë©´ 
 return list(range(0, n))
 
 
-nÀÌ 3º¸´Ù Å©°Å³ª °°À¸¸é
-tree = [[] for _ in range(n)]
+nì´ 3ë³´ë‹¤ í¬ê±°ë‚˜ ê°™ìœ¼ë©´
 
-Æ®¸®¸¦ Á¤·ÄÇÏ°í indegree°¡ 1ÀÎ ³ëµå »èÁ¦
+íŠ¸ë¦¬ë¥¼ ì •ë ¬í•˜ê³  indegreeê°€ 1ì¸ ë…¸ë“œ ì‚­ì œ
 
 
-.....  ¸ÁÇØ¾²¿ä
+.....  ë§í•´ì“°ìš”
