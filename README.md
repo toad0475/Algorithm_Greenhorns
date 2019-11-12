@@ -5,8 +5,8 @@ Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸�
 
 ## 2019.11.12
 * Wwise Attenuation Coordinateds Algorithm
-이미지 (https://github.com/toad0475/Algorithm_Greenhorns/blob/master/trippysour/attenuation.PNG)
-
+* 이미지 (https://github.com/toad0475/Algorithm_Greenhorns/blob/master/trippysour/attenuation.PNG)
+** 
 문제 : 
 이것은 Wwise의 Attenuation 그래프 입니다.
 X(Distance)가 주어질 때 해당 함수 그래프에서의 Y(Output Bus Volume) 값을 찾는 알고리즘을 구현 하시오. 
