@@ -12,6 +12,9 @@ Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸�
 
 <img src="https://github.com/toad0475/Algorithm_Greenhorns/blob/master/toad0475/20191113_Explanation.png" width="50%" height="50%" title="px(픽셀) 크기 설정" alt="예제설명"></img>
 
+* Note
+  * 주어진 Points의 x,y 그리고 X는 100000 이하의 모든 실수 입니다.
+
 본 문제는 Wwise의 Attenuation 정보를 Unreal로 가져와 원하는 형식으로 데이터를 표현하고자 할 때 필요했던 실제 사례를 바탕으로 제작한 것입니다.
 구현된 알고리즘 중 성능이 우수한 것을 선별하여 Waapi를 활용한 Unreal Sound Visualizer 프로젝트에서 활용할 계획입니다.
 * 참고 이미지(https://github.com/toad0475/Algorithm_Greenhorns/blob/master/trippysour/attenuation.PNG)
