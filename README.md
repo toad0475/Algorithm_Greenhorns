@@ -6,13 +6,16 @@ Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸�
 ## 2019.11.12
 ### Find Y coordinate for a given points
 주어진 x, y 포인트들(Points)은 좌표 평면에서 서로 직선으로 연결되어 있습니다. 이것을 바탕으로 X 좌표에 상응하는 Y값을 반환하세요.
+* 예제
+  * 입력: 8, [[0,5],[2,3],[6,2],[10,0]]
+  * 출력: 1
+
+<img src="https://github.com/toad0475/Algorithm_Greenhorns/blob/master/toad0475/20191113_Explanation.png" width="50%" height="50%" title="px(픽셀) 크기 설정" alt="예제설명"></img>
+
+본 문제는 Wwise의 Attenuation 정보를 Unreal로 가져와 표현하고자 할때 필요한 실제 사례입니다.
+구현된 알고리즘 중 성능이 우수한 것을 선별하여 Waapi를 활용한 Unreal Sound Visualizer 프로젝트에서 활용할 계획입니다.
 * 참고 이미지(https://github.com/toad0475/Algorithm_Greenhorns/blob/master/trippysour/attenuation.PNG)
 
-#### 예제
-##### 입력: 8, [[0,5],[2,3],[6,2],[10,0]]
-##### 출력: 1
-##### 설명
-![예제 설명](https://github.com/toad0475/Algorithm_Greenhorns/blob/master/toad0475/20191113_Explanation.png)
 
 ## 2019.11.05
 * [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
