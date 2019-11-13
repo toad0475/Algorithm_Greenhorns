@@ -34,4 +34,3 @@ Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸�
 
 ## 2019.09.26
 * [Remove Element](https://leetcode.com/problems/remove-element/)
-
