@@ -12,7 +12,7 @@ Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸�
 입력: 8, [[0,5],[2,3],[6,2],[10,0]]
 출력: 1
 설명
-![예제 설명](
+![예제 설명](/Algorithm_Greenhorns/toad0475/20191113_Explanation.png)
 
 ## 2019.11.05
 * [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
