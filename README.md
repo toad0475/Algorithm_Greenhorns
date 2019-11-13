@@ -4,15 +4,15 @@ Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸�
 * Programmers(https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
 ## 2019.11.12
-* Wwise Attenuation Coordinateds Algorithm
-* 이미지 (https://github.com/toad0475/Algorithm_Greenhorns/blob/master/trippysour/attenuation.PNG)
-* 문제 : 이것은 Wwise의 Attenuation 그래프 입니다.
-* X(Distance)가 주어질 때 해당 함수 그래프에서의 Y(Output Bus Volume) 값을 찾는 알고리즘을 구현 하시오. 
+### Find Y coordinate for a given points
+주어진 x, y 포인트들(Points)은 좌표 평면에서 서로 직선으로 연결되어 있습니다. 이것을 바탕으로 X 좌표에 상응하는 Y값을 반환하세요.
+* 참고 이미지(https://github.com/toad0475/Algorithm_Greenhorns/blob/master/trippysour/attenuation.PNG)
 
-* 주어지는 정보
-* Y의 Min/Max = 0 ~ -200.0
-* X의 MIn/Max = 0 ~ 100.0
-* [X, Y] 포인트 = [[0,0][20,-5][40, -1][60,-8][80,-2][100,-200]]
+* 예제
+입력: 8, [[0,5],[2,3],[6,2],[10,0]]
+출력: 1
+설명
+![예제 설명](
 
 ## 2019.11.05
 * [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
