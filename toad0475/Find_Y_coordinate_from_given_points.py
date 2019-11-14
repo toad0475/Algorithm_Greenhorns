@@ -9,7 +9,7 @@ y절편 = y1-(기울기*x1)
 def solution(X, points):
     if len(points)<2:
         return -1
-    if X < points[0][0] or X > points[-1][1]:
+    if X < points[0][0] or X > points[-1][0]:
         return -1
 
     def slope(x1,x2,y1,y2):
@@ -25,4 +25,4 @@ def solution(X, points):
             return slope*X+yintercept
 
 # 테스트
-print(solution(8,[[0,5],[2,3],[6,2],[10,0]]))
+print(solution(1,[[0,5],[2,3],[6,2],[10,0]]))
