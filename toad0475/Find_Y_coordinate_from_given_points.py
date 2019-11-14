@@ -8,7 +8,7 @@ y절편 = y1-(기울기*x1)
 '''
 def solution(X, points):
     if len(points)<2:
-        return "points 수가 부족합니다."
+        return "point가 부족합니다."
     if X < points[0][0] or X > points[-1][0]:
         return "X값이 너무 작거나 큽니다."
 
