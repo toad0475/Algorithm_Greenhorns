@@ -4,7 +4,7 @@ Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸�
 * Programmers(https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
 ## 2019.11.12
-### Find Y coordinate for given points
+### Find Y coordinate from given points
 주어진 x, y 포인트들(Points)은 좌표 평면에서 서로 직선으로 연결되어 있습니다. 이것을 바탕으로 X값에 상응하는 Y값을 반환하세요.
 * 예제
   * 입력: 8, [[0,5],[2,3],[6,2],[10,0]]
