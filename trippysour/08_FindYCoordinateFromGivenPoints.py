@@ -5,17 +5,11 @@
 x = 0
 points = [[0, 5],[2, 3],[6,2],[10,0]]
 def usv_attenuation_graph(x, points): # x와 Points 를 입력시 y 값을 return 하는 함수
-    def x_difference(x1, x2): # x 증가량
-        return x2- x1
-    def y_difference(y1, y2): # y 증가량
-        return y2 - y1
-    def slope (xi, yi): # y 증가량 / x 증가량 = 기울기
-        return yi / xi
+    def slope (x1, x2, y1, y2): # y 증가량 / x 증가량 = 기울기
+        return (y2 - y1) / (x2 - x1)
     for i in range(len(points)-1): # Points의 length의 값 만큼 반복
         if x >= points[i][0] and x < points[i+1][0]:
-            xi = x_difference(points[i][0], points[i+1][0])
-            yi = y_difference(points[i][1], points[i+1][1])
-            y = (x - points[i][0]) * slope(xi, yi) + points[i][1]
+            y = (x - points[i][0]) * slope(points[i][0], points[i+1][0], points[i][1], points[i+1][1]) + points[i][1]
             return print(y)
 usv_attenuation_graph(8 ,points)
 
@@ -43,9 +37,3 @@ def usv_attenuation_graph_original(x, points): # x와 Points 를 입력시 y 값
     # x의 증가량에 y의 증가량의 비율을 구해서 x의 증가량에 대응하는 y의 증가량을 구해서 x가 증가하기 전 값에 대응하는 y가 증가하기 전 값에 더해주기
     return print(y)
 usv_attenuation_graph_original(8 ,points)
-
-
-
-
-
-
