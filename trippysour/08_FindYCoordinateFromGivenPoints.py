@@ -7,9 +7,11 @@ points = [[0, 5],[2, 3],[6,2],[10,0]]
 def usv_attenuation_graph(x, points): # x와 Points 를 입력시 y 값을 return 하는 함수
     def slope (x1, x2, y1, y2): # y 증가량 / x 증가량 = 기울기
         return (y2 - y1) / (x2 - x1)
-    for i in range(len(points)-1): # Points의 length-1의 값 만큼 반복
+    for i in range(len(points)-1): # Points의 length의 값 만큼 반복
         if x >= points[i][0] and x < points[i+1][0]:
             y = (x - points[i][0]) * slope(points[i][0], points[i+1][0], points[i][1], points[i+1][1]) + points[i][1]
+            # x가 8이라면 y = (8-6)*-0.5 + 2 = -1 + 2 = 1
+            # x의 증가량에 y의 증가량의 비율(slope)을 구해서 x의 증가량에 대응하는 y의 증가량을 구해서 x가 증가하기 전 값에 대응하는 y가 증가하기 전 값에 더해주기
             return print(y)
 usv_attenuation_graph(8 ,points)
 
@@ -25,7 +27,6 @@ def usv_attenuation_graph_original(x, points): # x와 Points 를 입력시 y 값
         if index + 1 == len(points) : break 
         # 다만 아래부터는 index + 1의 값이 list 너머의 값으로 나올 수 있기에 에러 방지차 len 넘기면 break
         slope.append((points[index + 1][1] - points[index][1]) / (points[index + 1][0] - points[index][0]))
-        # 현재 x, y 값과 다음 x, y 값과의 차이를 구해서 y증가량 / x증가량 = 기울기 = slope 에 담기
         index = index + 1
     if x >= points[0][0] and x < points[1][0]: n = 0
     elif x >= points[1][0] and x < points[2][0]: n = 1
@@ -33,7 +34,5 @@ def usv_attenuation_graph_original(x, points): # x와 Points 를 입력시 y 값
     elif x == points[3][0] : n = 3
     # 조건문을 매끄럽게 할 수 있는 방법 알아보자
     y = (x - points[n][0]) * slope[n] + points[n][1]
-    # x가 8이라면 y = (8-6)*-0.5 + 2 = -1 + 2 = 1
-    # x의 증가량에 y의 증가량의 비율을 구해서 x의 증가량에 대응하는 y의 증가량을 구해서 x가 증가하기 전 값에 대응하는 y가 증가하기 전 값에 더해주기
     return print(y)
 usv_attenuation_graph_original(8 ,points)
