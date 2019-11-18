@@ -1,0 +1,16 @@
+numpy, polyfit 방법 궁금하다 이건 뭔가요..
+https://stackoverflow.com/questions/21565994/method-to-return-the-equation-of-a-straight-line-given-two-points
+
+#문제
+input = P, [[x1,y1],[x2,y2],...[xn,yn]]
+return = f(P)
+
+기울기 = A
+y절편 = B
+# f(xn) = Ax(n)+(y(n)-A)
+
+
+1. int(n-1) < x < Int(n) 일 경우 [x(n-1),y(n-1)], [x(n),y(n)] 두점을 이용한 방정식 설정
+f(xn) = Ax(n)+(y(n)-A)
+
+
