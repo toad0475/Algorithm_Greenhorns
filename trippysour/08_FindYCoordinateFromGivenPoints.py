@@ -7,7 +7,7 @@ points = [[0, 5],[2, 3],[6,2],[10,0]]
 def usv_attenuation_graph(x, points): # x와 Points 를 입력시 y 값을 return 하는 함수
     def slope (x1, x2, y1, y2): # y 증가량 / x 증가량 = 기울기
         return (y2 - y1) / (x2 - x1)
-    for i in range(len(points)-1): # Points의 length의 값 만큼 반복
+    for i in range(len(points)): # Points의 length의 값 만큼 반복
         if x >= points[i][0] and x < points[i+1][0]:
             y = (x - points[i][0]) * slope(points[i][0], points[i+1][0], points[i][1], points[i+1][1]) + points[i][1]
             # x가 8이라면 y = (8-6)*-0.5 + 2 = -1 + 2 = 1
