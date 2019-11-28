@@ -4,6 +4,8 @@ Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸�
 * Programmers(https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
 ## 2019.11.26
+* [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+* [Majority Element](https://leetcode.com/problems/majority-element/)
 
 ## 2019.11.12
 ### Find Y coordinate from given points
