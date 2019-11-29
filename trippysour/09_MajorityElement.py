@@ -7,6 +7,7 @@ def majorityElement(nums):
 print(majorityElement(nums))
 
 # https://leetcode.com/submissions/detail/282448625/
+# 176 ms	13.9 MB
 
 #---------------------------------------------------------------------------------------------------------------------
 # 아래 코드는 과반수가 넘는 element가 항상 존재 하지 않을 때 통할 듯
@@ -29,3 +30,4 @@ def majorityElement2(nums):
 print(majorityElement2(nums))
 
 #https://leetcode.com/submissions/detail/282444993/
+# 172 ms	14 MB
