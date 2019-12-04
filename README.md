@@ -3,6 +3,9 @@ Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸�
 * LeetCode(https://leetcode.com/problemset/all/)
 * Programmers(https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
+## 2019. 12.04
+* .[모의고사].(https://programmers.co.kr/learn/courses/30/lessons/42840#)
+
 ## 2019.11.26
 * [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 * [Majority Element](https://leetcode.com/problems/majority-element/)
