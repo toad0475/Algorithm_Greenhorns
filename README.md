@@ -2,6 +2,9 @@
 Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸이트에서 맴버들이 돌아가면서 매주 1문제씩 출제합니다.
 * LeetCode(https://leetcode.com/problemset/all/)
 * Programmers(https://programmers.co.kr/learn/challenges?tab=all_challenges)
+## 2019.12.10
+* [Add Digits](https://leetcode.com/problems/add-digits/)
+* [Jump Game](https://leetcode.com/problems/jump-game/)
 
 ## 2019. 12.04
 * [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840#)
