@@ -10,4 +10,4 @@ class Solution:
 
 # 자릿수근 공식을 그대로 코드에 적용
 # https://leetcode.com/submissions/detail/286113898/
-# 28ms, 12.7MB
+# 28ms, 12.7MB 
