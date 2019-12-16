@@ -7,8 +7,10 @@ class Solution:
         
         else:
             res=0
+            
             # num을 리스트로 변환 (Ex.2019 -> [2,0,1,9]) 
             num_list = list(map(int, str(num)))
+           
             # 리스트를 digit:count 형식의 dict로 변환 (Ex. [1,3,3,9] -> {1:1 , 3:2, 9:1} ) 
             num_map = {x:num_list.count(x) for x in num_list} 
             
