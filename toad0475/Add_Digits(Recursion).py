@@ -2,7 +2,9 @@
 
 class Solution:
     def addDigits(self, num: int) -> int: 
-        if num < 10: return num  # num이 10보다 작으면 그대로 리턴
+        # num이 10보다 작으면 그대로 리턴
+        if num < 10: return num
+        
         else:
             res=0
             # num을 리스트로 변환 (Ex.2019 -> [2,0,1,9]) 
