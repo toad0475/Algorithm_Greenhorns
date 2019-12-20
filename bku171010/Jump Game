@@ -1,0 +1,10 @@
+#점프라는 건 "인덱스+원소"로 해석할 수 있다.
+#맨 마지막 원소로 도달하기 위해선 "array[-1] + index(array[-1])" 만큼 점프해야 한다.
+
+array = list(map(int, input().split()))
+
+a = 0
+i > 0,  "i+array[i]" > array[a] 를 찾아 true면
+a = i
+
+#(작성중)
