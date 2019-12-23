@@ -1,7 +1,8 @@
 def canJump(nums):
-    jump = nums[0]
-    if jump >= len(nums)-1: return True, print('True')
-    elif jump == 0: return False, print('False')
+    if nums[0] >= len(nums)-1: return True, print('True')
+    # 첫 인덱스 0의 value가 이미 마지막 인덱스 보다 같거나 크면 True
+    elif nums[0] == 0: return False, print('False')
+    # 첫인덱스의 value가 0이라면 무조건 False
     else:
         def findallnums(i):
             if i == 0: return [0]
@@ -10,7 +11,7 @@ def canJump(nums):
         for i in nums:
             if i == nums[-1]: break
             print(findallnums(i))
-        # 각 아이템들의 가짓수를 더한 경우의 수가 nums[-1]보다 같거나 크면 True
+        # 각 아이템들의 가짓수를 더한 경우의 수가 len(nums)-1(마지막인덱스)보다 같거나 크면 True
         # 아니면 False
 
 
