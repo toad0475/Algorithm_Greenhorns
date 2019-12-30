@@ -11,3 +11,7 @@ class Solution:
                     maxjump = max(maxjump, i+v) # 그곳에서 현재 maxjump와 현재 i+v 값 충에 큰 값으로 maxjump 바꿈
                 if maxjump >= len(nums)-1: return True
             else: return False
+
+            
+# https://leetcode.com/submissions/detail/289664111/
+# Runtime: 96 ms, Memory Usage: 14.9 MB
