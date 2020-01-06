@@ -5,7 +5,6 @@ class Solution:
         else:
             maxjump = 0
             for i, v in enumerate(nums):
-                if i == len(nums)-1: break
                 #print('maxjump :', maxjump, ',', 'i :',i , ',', 'v :', v, ',', 'i+v :',i+v)
                 if i <= maxjump: # 현재 i값이 maxjump보다 작거나 같으면 도달할 수 있는 곳이니까
                     maxjump = max(maxjump, i+v) # 그곳에서 현재 maxjump와 현재 i+v 값 충에 큰 값으로 maxjump 바꿈
