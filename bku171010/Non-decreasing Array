@@ -3,16 +3,10 @@
 class Solution:
     def checkPossibility(self, nums: List[int]) -> bool:
 
-        count = 0    #감소구간
+        Count = 0    #감소구간
 
-        for i in nums:
-            nums[i] - nums[i+1] = a
-                if a > 0		#전의 원소와 값을 비교하여 감소한 경우
-                    count = count +1	#count에 1 추가
-        if count >= 2:		#감소구간이 2개 이상일 경우
-            return False		#False 반환
-
-        else:			#감소구간이 1 미만일 경우
-            return True		#True 반환
-
-(수정중)
+        #for 문으로 nums[i] 와 nums[i+1] 을 비교
+        # if nums[i] > nums[i+1] 라면
+        # Count = Count +1
+        # Count가 2 되면 브레이크 및 False 반환
+        # for 문이 완료되었음에도 Count가 2보다 작다면 True 반환
