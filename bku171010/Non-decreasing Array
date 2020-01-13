@@ -1,0 +1,18 @@
+#요는 array[i] > array[i+1] 구간이 2개 미만이면 True, 2개 이상이면 False
+
+class Solution:
+    def checkPossibility(self, nums: List[int]) -> bool:
+
+        count = 0    #감소구간
+
+        for i in nums:
+            nums[i] - nums[i+1] = a
+                if a > 0		#전의 원소와 값을 비교하여 감소한 경우
+                    count = count +1	#count에 1 추가
+        if count >= 2:		#감소구간이 2개 이상일 경우
+            return False		#False 반환
+
+        else			#감소구간이 1 미만일 경우
+            return True		#True 반환
+
+(수정중)
