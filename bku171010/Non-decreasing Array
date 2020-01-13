@@ -12,7 +12,7 @@ class Solution:
         if count >= 2:		#감소구간이 2개 이상일 경우
             return False		#False 반환
 
-        else			#감소구간이 1 미만일 경우
+        else:			#감소구간이 1 미만일 경우
             return True		#True 반환
 
 (수정중)
