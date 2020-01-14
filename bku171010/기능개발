@@ -1,0 +1,11 @@
+# {100 - [작업의 개수]} / [작업속도] 의 값을 반환하여 다시 List를 만든다.
+# List[i] 보다 큰 값을 같는 원소의 인덱스를 찾고 해당 인덱스 +1 = a 로 정의한 후 원소 삭제
+# answer = [a0, a1, a2 ... ai]
+# return(answer)
+
+
+
+# for i in range(len(progresses)):
+#     {100 - progresses[i]} / speeds[i]} = a
+
+(작성중)
