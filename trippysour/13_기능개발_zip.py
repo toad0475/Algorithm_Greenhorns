@@ -1,12 +1,12 @@
-import math #소숫점 올리기 위한 ceil함수 쓰기위해서 import
+import math 
 
 def solution(progresses, speeds):
-    def remaindays(n1, n2): #remaindays 계산하기 위한 함수
+    def remaindays(n1, n2):
         return math.ceil((100 - n1) / n2)
 
-    releases = remaindays(progresses[0], speeds[0]) #비교하기 위한 변수 생성, [0]끼리 넣어서 지정
-    answer = [0] #answer 생성, 0 하나 생성해줌 +1, 혹은 append 1하기 위해
-    index = 0 #
+    releases = remaindays(progresses[0], speeds[0]) 
+    answer = [0] 
+    index = 0 
 
     for x, y in zip(progresses, speeds):
         print(remaindays(x,y))
