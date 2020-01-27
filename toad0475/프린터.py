@@ -1,7 +1,9 @@
 def solution(priorities, location):
     answer = 0
+    pmax=0
     while location>=0:
-        if priorities[0] < max(priorities[1:]):
+        pmax=max(priorities)
+        if priorities[0] < pmax:
             priorities.append(priorities.pop(0))
             if location ==0:
                 location=len(priorities)-1
