@@ -36,4 +36,3 @@ def solution(progresses, speeds):
 #print(solution([93, 30, 55, 60, 40, 65],  [1, 30, 5 , 10, 60, 7])) #- [2,4] 
 
 #release 가 지금 release보다 크면 release 갱신하고 append, 아니면 원래 있는거에 +1
-#최적화 해보기, zip 써보기 - 했는데 왜 for한번 쓴 코드보다 이게 더 빠르고 더 쌀까
