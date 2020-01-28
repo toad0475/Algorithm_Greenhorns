@@ -19,6 +19,7 @@ def solution(progresses, speeds):
 
     return answer
 
+
 #print(solution([0,0,0,0], [100,50,34,25])) #- [1,1,1,1]
 #print(solution([93,30,55], [1,30,5])) #- [2,1]
 #print(solution([55, 90, 30], [5, 1, 10])) #- [1,2]
