@@ -2,7 +2,6 @@ def solution(s):
     answer = []
 
     lst = s.split(' ')
-    s = s.lower()
 
     for word in lst:
         answer.append(word.capitalize())
