@@ -3,6 +3,9 @@ Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸�
 * LeetCode(https://leetcode.com/problemset/all/)
 * Programmers(https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
+## 2020.02.14
+* [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
+
 ## 2020.02.04
 * [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951)
 
