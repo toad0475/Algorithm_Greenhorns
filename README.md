@@ -4,6 +4,7 @@ Alorithm 스터디하는 코딩 풋내기들의 모임입니다. 아래의 싸�
 * Programmers(https://programmers.co.kr/learn/challenges?tab=all_challenges)
 ## 2020.03.18
 * [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048)
+* [약수의 합](https://programmers.co.kr/learn/courses/30/lessons/12928)
 
 ## 2020.03.10
 * [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)
