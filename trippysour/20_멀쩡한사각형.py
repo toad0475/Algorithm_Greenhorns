@@ -1,7 +1,7 @@
 from math import gcd
 def solution(w, h):
     greatestcommondivisior = gcd(w, h)
-    return (w*h)-((w+h)-greatestcommondivisior)
+    return (w*h)-((w+h)-greatestcommondivisor)
 
 #print(solution(3,3)) #6
 #print(solution(8,12)) #80
