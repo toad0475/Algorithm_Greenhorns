@@ -12,12 +12,10 @@ def maxAreaOfIsland(lst):
             visit.append([i, j])
             if lst[i][j] == 1:
                 area += 1
-            queue.append([i + 1, j])
-            queue.append([i - 1, j])
-            queue.append([i, j + 1])
-            queue.append([i, j - 1])
-            i += 1
-            j += 1
+                queue.append([i + 1, j])
+                queue.append([i - 1, j])
+                queue.append([i, j + 1])
+                queue.append([i, j - 1])
             if i > len(lst) and j > len(lst[0]): break
 
     return
