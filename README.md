@@ -3,6 +3,10 @@ Algorithm을 스터디하는 코딩 풋내기들의 모임입니다. 아래의 �
 * LeetCode(https://leetcode.com/problemset/all/)
 * Programmers(https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
+
+## 2020.06.24
+* [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)
+
 ## 2020.06.10
 * [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)
 ## 2020.04.25
