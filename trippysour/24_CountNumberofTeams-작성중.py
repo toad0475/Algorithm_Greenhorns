@@ -1,5 +1,3 @@
-# 푸는 중
-
 def numTeams(soldiers):
     if len(soldiers) < 3:
         return 0
