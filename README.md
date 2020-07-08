@@ -3,6 +3,8 @@ Algorithm을 스터디하는 코딩 풋내기들의 모임입니다. 아래의 �
 * LeetCode(https://leetcode.com/problemset/all/)
 * Programmers(https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
+## 2020.07.10
+* [Number of Island](https://leetcode.com/problems/number-of-islands/description/)
 
 ## 2020.06.24
 * [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)
