@@ -11,6 +11,7 @@ dfs 접근법
 class Solution {
 public:
     bool validLand(vector<vector<char>>& grid, int x, int y) {
+	// 순회 할 인덱스가 유효한 땅인지 체크
         if (x < 0 || y < 0 || x >= grid.size() || y >= grid[0].size()) {
             return true;
         }
