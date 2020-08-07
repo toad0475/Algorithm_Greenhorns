@@ -3,6 +3,9 @@ Algorithm을 스터디하는 코딩 풋내기들의 모임입니다. 아래의 �
 * LeetCode(https://leetcode.com/problemset/all/)
 * Programmers(https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
+## 2020.08.05
+* [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
+
 ## 2020.07.10
 * [Number of Island](https://leetcode.com/problems/number-of-islands/description/)
 
